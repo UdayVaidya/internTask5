@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduport Learning Platform</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico"> 
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Glightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="bg-black">
+    <nav class="navbar navbar-expand-lg navbar-black">
+        <a class="navbar-brand" href="#">
+            <img src="https://www.innomatics.in/wp-content/uploads/2023/01/innomatics-footer-logo.png" alt="Innomatics Research Labs Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-white">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Demos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accounts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section custom-bg-black">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Column for Text and Buttons -->
+        <div class="col-md-6">
+          <h1 class="display-4">Limitless learning at your <span class="highlight">fingertips</span></h1>
+          <p class="lead">
+            Online learning and teaching marketplace with 5K+ courses & 10M students. Taught by experts to help you acquire new skills.
+          </p>
+          <ul class="list-inline">
+            <li class="list-inline-item me-2">
+                <img src="assets/images/verified.png" class="mr-1 align-items-center justify-content-center"></img>Learn with experts
+            </li>
+            <li class="list-inline-item me-2">
+                <img src="assets/images/verified.png" class="mr-1 align-items-center justify-content-center"></img>Get certificate
+            </li>
+            <li class="list-inline-item">
+                <img src="assets/images/verified.png" class="mr-1 align-items-center justify-content-center"></img>Get membership
+            </li>
+        </ul>
+        
+          <div class="mt-4">
+            <a href="#" class="btn btn-start">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=1sXGfa33zWo" class="btn btn-circle ml-md-3 mt-3 mt-md-0">
+                <i class="fas fa-play"></i>
+            </a>
+            <span class="mb-0 ms-3 fw-normal">Watch Video</span>
+          </div>
+        </div>
+        <!-- Right Column for Image and Notification -->
+        <div class="col-md-6 text-center">
+          <img src="assets/images/07.png" alt="Hero Image" class="hero-img img-fluid">
+          <div class="notification mt-3 d-flex justify-content-center align-items-center">
+            <span class="icon-lg bg-warning rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fas fa-envelope text-white"></i>
+            </span>
+            <span class="ml-2">Congratulations! Your admission completed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Most Popular Courses Section -->
+<section class="popular-courses-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Most Popular Courses</h2>
+        <p class="text-center">Choose from hundreds of courses from specialist organizations</p>
+
+        <!-- Features Section -->
+        <section class="features-section py-5 bg-black mb-5 text-white">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <span class="display-6 lh-4 text-warning mb-0" style="font-size: 4rem;"> 
+                                <i class="fas fa-tv" style="font-size: 4rem;"></i> 
+                            </span>
+                            <h3>10K Online Courses</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <span class="display-6 lh-1 text-blue mb-0" style="font-size: 4rem;">
+                                <i class="fas fa-user-tie" style="font-size: 4rem;"></i>
+                            </span>
+                            <h3>200+ Expert Tutors</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <span class="display-6 lh-1 text-purple mb-0" style="font-size: 4rem;">
+                                <i class="fas fa-user-graduate" style="font-size: 4rem;"></i>
+                            </span>
+                            <h3>60K+ Online Students</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category Tabs -->
+        <ul class="nav nav-pills justify-content-center mb-4" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="web-design-tab" data-toggle="pill" href="#web-design" role="tab">Web Design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="development-tab" data-toggle="pill" href="#development" role="tab">Development</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="graphic-design-tab" data-toggle="pill" href="#graphic-design" role="tab">Graphic Design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="marketing-tab" data-toggle="pill" href="#marketing" role="tab">Marketing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="finance-tab" data-toggle="pill" href="#finance" role="tab">Finance</a>
+            </li>
+        </ul>
+
+        <!-- Course Cards -->
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Web Design Tab Content -->
+            <div class="tab-pane fade show active" id="web-design" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> <!-- Added bg-black and text-white classes -->
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-primary mb-1">All Level</span>
+                                <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+                                <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+                                <div class="rating">
+                                    <span>4.0/5.0</span>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more course cards in a similar structure -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black">
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-success mb-1">Beginner</span>
+                                <h5 class="card-title">Graphic Design Masterclass</h5>
+                                <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end.</p>
+                                <div class="rating">
+                                    <span>4.5/5.0</span>
+                                </div>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 9h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 65 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more cards for other courses -->
+                </div>
+            </div>
+            <!-- Similar tab panes for other categories -->
+            <div class="tab-pane fade" id="development" role="tabpanel">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> <!-- Added bg-black and text-white classes -->
+                            <img src="https://www.innomatics.in/wp-content/uploads/2023/01/AWS-training-institute-Innomatics-research-labs-Kukatpallihyderabad.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-success mb-1">Beginner</span>
+                                <h5 class="card-title">AWS Training Course</h5>
+                                <p class="card-text">Mention Mr manners opinion if garrets enabled.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Full-Stack-Web-Development-training-program-Innomatics-research-labs-india.png" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-primary mb-1">All Level</span>
+                                <h5 class="card-title">Full Stack Web Development</h5>
+                                <p class="card-text">Rooms oh fully taken by worse do. Points afraid but may end.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-primary mb-1">All Level</span>
+                                <h5 class="card-title">Deep Learning with React-Native</h5>
+                                <p class="card-text">Far advanced settling say finished raillery. Offered chiefly farther</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-pane fade" id="graphic-design" role="tabpanel">
+                <div class="row">
+                    <!-- Card 1: Graphic Design Masterclass -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-success mb-1">Beginner</span>
+                                <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+                                <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: Create a Design System in Figma -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-primary mb-1">All Level</span>
+                                <h5 class="card-title">Graphic Design Masterclass</h5>
+                                <p class="card-text">Rooms oh fully taken by worse do. Points afraid but may end</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3: Deep Learning with React-Native -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-success mb-1">Beginner</span>
+                                <h5 class="card-title">Create a Design System in Figma</h5>
+                                <p class="card-text">Rooms oh fully taken by worse do. Points afraid but may end.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-pane fade" id="marketing" role="tabpanel">
+                <div class="row">
+                    <!-- Card 1: Digital Marketing Strategy -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/01.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-primary mb-1">All Level</span>
+                                <h5 class="card-title">Digital Marketing Masterclass</h5>
+                                <p class="card-text">Delivered dejection necessary objection do Mr prevailed.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: Content Marketing Mastery -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-success mb-1">Beginner</span>
+                                <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+                                <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-pane fade" id="finance" role="tabpanel">
+                <div class="row">
+                    <!-- Card 1: Introduction to Finance -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-success mb-1">Beginner</span>
+                                <h5 class="card-title">Learn Invision</h5>
+                                <p class="card-text">Arrived off she elderly beloved him Course regard to up he hardly.</p>
+                                <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
+                                <li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+                            </ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: Corporate Finance Basics -->
+                    <div class="col-md-4">
+                        <div class="card course-card mb-4 custom-bg-black"> 
+                            <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge badge-primary mb-1">All Level</span>
+                                <h5 class="card-title">JavaScript: Full Understanding</h5>
+                                <p class="card-text">Far advanced settling say finished raillery. Offered chiefly farther.</p>
+                                <ul class="list-inline mb-0">
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+									<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+									<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+								</ul>
+                                <div class="course-info">
+                                    <span><i class="far fa-clock"></i> 12h 56m</span>
+                                    <span><i class="far fa-play-circle"></i> 15 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="awards" class="my-5">
+    <div class="container">
+        <h2 class="text-center mb-4 text-white">Awards & Recognitions</h2>
+        <div class="row">
+            <!-- Award 1 -->
+            <div class="col-md-4">
+                <div class="card award-card mb-4 custom-bg-black"> <!-- Added custom-bg-black -->
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg" class="card-img-top logo1" alt="Award 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white">Best Online Course Provider 2023</h5> <!-- Added text-white class -->
+                        <p class="card-text text-white">Awarded for exceptional online learning experience and student engagement.</p> <!-- Added text-white class -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Award 2 -->
+            <div class="col-md-4">
+                <div class="card award-card mb-4 custom-bg-black">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg" class="card-img-top logo1" alt="Award 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white">Top Educator of the Year</h5>
+                        <p class="card-text text-white">Recognized for outstanding contributions to education and mentorship.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Award 3 -->
+            <div class="col-md-4">
+                <div class="card award-card mb-4 custom-bg-black">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/07/radiocity-award.jpg" class="card-img-top logo1" alt="Award 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white">Excellence in Graphic Design Education</h5>
+                        <p class="card-text text-white">Honored for excellence in teaching graphic design principles.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<footer class="footer bg-light text-muted py-5 custom-bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 ">
+            <img src="https://www.innomatics.in/wp-content/uploads/2023/01/innomatics-footer-logo.png" alt="Innomatics Research Labs Logo" class="logo">
+          <p>
+            Innomatics Research Labs, built specifically for the education centers which is dedicated to teaching and involve learners.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="me-2"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold text-white">Company</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">News and Blogs</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold text-white">Community</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold text-white">Teaching</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">Become a teacher</a></li>
+            <li><a href="#">How to guide</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold text-white">Contact</h6>
+          <ul class="list-unstyled">
+            <li><span>Toll free: +1234 568 963</span></li>
+            <li><span>Email: example@gmail.com</span></li>
+          </ul>
+          <div class="app-stores">
+            <a href="#"><img src="google-play.png" alt="Google Play"></a>
+            <a href="#"><img src="app-store.png" alt="App Store"></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <small class="d-block">&copy; 2024 Innomatics Research Labs. Built by Webestica</small>
+        <small>
+          <a href="#">Terms of use</a> | <a href="#">Privacy policy</a>
+        </small>
+      </div>
+    </div>
+</footer>
+  
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+    const lightbox = GLightbox({
+        selector: 'a[data-glightbox]',
+        type: 'video',
+    });
+</script>
+
+
+</body>
+</html>

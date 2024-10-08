@@ -1,0 +1,210 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.btn-circle {
+    width: 50px;           /* Width of the circle */
+    height: 50px;          /* Height of the circle */
+    padding: 10px;         /* Padding to center the icon */
+    border-radius: 50%;    /* Makes it round */
+    display: inline-flex;  /* Makes it flex to center content */
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;  /* Example background color */
+    color: white;          /* Icon color */
+    font-size: 16px;       /* Adjust icon size */
+}
+
+.logo1 {
+    height: 250px;
+    width: auto;
+}
+
+.logo {
+    width: 250px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.popular-courses-section h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-pills .nav-link {
+    border-radius: 30px;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+
+.course-card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+.course-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-card .card-body {
+    padding: 15px;
+}
+
+.course-card .badge {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.rating {
+    font-size: 14px;
+    color: #f39c12;
+}
+
+
+/* Custom Badge Styling */
+.badge {
+    font-size: 0.75rem;
+    padding: 0.5em 0.75em;
+}
+
+/* Card Ratings */
+.rating {
+    color: #ffc107; /* Bootstrap Yellow */
+    font-weight: bold;
+}
+
+.footer {
+  background-color: #f8f9fa;
+}
+
+.footer h5, .footer h6 {
+  color: #343a40;
+}
+
+.footer p, .footer ul li a, .footer ul li span {
+  color: #6c757d;
+}
+
+.footer .social-icons a {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.footer .social-icons a:hover {
+  color: #343a40;
+}
+
+.footer .app-stores img {
+  max-width: 120px;
+  margin-right: 10px;
+}
+
+.footer .app-stores a img {
+  width: 100px;
+  margin-right: 8px;
+}
+
+.custom-bg-black {
+    background-color: black !important;
+    color: white !important;
+}
+
+.hero-section {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 80px 0;
+    position: relative;
+  }
+  .highlight {
+    background-color: yellow;
+    color: black;
+    padding: 0 5px;
+  }
+  .btn-start {
+    background-color: #C44137;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  .btn-start:hover {
+    background-color: #a2342b;
+  }
+  .btn-watch {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  .btn-watch i {
+    font-size: 16px;
+  }
+  .btn-watch:hover {
+    background-color: #0056b3;
+  }
+  .hero-section .img-avatar {
+    width: 100px;
+    border-radius: 50%;
+  }
+  .hero-img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .notification {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .notification .icon-lg {
+    padding: 12px;
+  }
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 40px 0;
+    }
+    .notification {
+      justify-content: center;
+      text-align: center;
+    }
+    .btn-start {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .btn-watch {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .hero-img {
+      margin-top: 30px;
+    }
+  }
